@@ -1,6 +1,10 @@
 import random
+start = input('set up the random value and its range as starting: ')
+end = input('set up the random value and its the range as ending: ')
+start = int(start)
+end = int(end)
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1 # count = count + 1 
